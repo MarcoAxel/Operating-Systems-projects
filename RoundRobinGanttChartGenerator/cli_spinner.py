@@ -17,7 +17,7 @@ class CLI_Spinner:
         spinner =  ["|","/","-","\\"] # this loops through 
         n=0
         x=0
-        loading = ["","|||","||||||","|||||||||"]
+        loading = ["","|||","||||||","||||||||||"]
         l=0 # increments of 5
         progress= 0
         while True:
@@ -53,6 +53,6 @@ if __name__ == "__main__":
     spinner.start()
     print("Program Logic...")
     time.sleep(10)
-    print(f"\r|||||||||")
+    print(f"\r||||||||||")
     print("Process Complete")
     spinner.stop()
