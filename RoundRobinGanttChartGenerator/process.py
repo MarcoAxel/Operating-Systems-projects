@@ -1,3 +1,4 @@
+#Note to self: This was the original version, changed approach to a pandas dataframe
 class Process:
     p_count = 0
     time = 0
