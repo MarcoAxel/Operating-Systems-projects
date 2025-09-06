@@ -1,6 +1,6 @@
 # Initialize variables
 processes_to_generate = 100
-quantum = 10
+quantum = 5
 context_switch = 0
 
 p_count = 0
@@ -46,7 +46,7 @@ def generate_rand_arrival_times(num_arrivals=99, min_time=4, max_time=9):# modif
 result = generate_rand_arrival_times(99, 4, 9)
 inter_arrival_times = result[0]
 arrival_times = result[1]
-original_service_times = generate_service_times(100, 2, 5)
+original_service_times = generate_service_times(100, 2, 10)
 
 # Create the DataFrame
 import pandas as pd
